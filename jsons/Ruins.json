@@ -1,22 +1,15 @@
 [ 
 { 
-"name": "discover cultural signs",
-"notification": "We have discovered cultural signs in the ruins! (+500 culture)",
-"weight": 3
-"uniques": ["Gain [500] [Culture]", "Hidden after founding a Pantheon"], 
-"color": "#cf8ff7" 
-},
-{ 
 "name": "discover cultural artifacts",
 "notification": "We have discovered ideas for a perfect society in the ruins! (free Social Policy)",
-"weight": 3
-"uniques": ["Free Social Policy", "Only available <after founding a Pantheon>"], 
+"weight": 7
+"uniques": ["Free Social Policy"], 
 "color": "#cf8ff7" 
 },
 { 
 "name": "discover cultural artifacts",
 "notification": "We have discovered a secret that will impact our whole empire in the ruins! (Free Golden Age)",
-"weight": 3
+"weight": 2
 "uniques": ["Empire enters golden age", "Only available <after founding a Pantheon>", "Only available after [20] turns"], 
 "color": "#cf8ff7" 
 },
@@ -28,20 +21,32 @@
 {
 "name": "squatters wishing to to great things under your rule", 
 "notification": "A Great Person has joined us!", 
+"weight": 4
+"uniques": ["Free [Artist Person] found in the ruins"]
+},
+{
+"name": "squatters wishing to to great things under your rule", 
+"notification": "A Great Person has joined us!", 
+"weight": 4
+"uniques": ["Free [Scientist Person] found in the ruins"]
+},
+{
+"name": "squatters wishing to to great things under your rule", 
+"notification": "A Great Person has joined us!", 
 "weight": 2
-"uniques": ["Free [Free Great Person] found in the ruins"]
+"uniques": ["Free [Merchant Person] found in the ruins"]
 },
 { 
 "name": "your exploring unit receives training", 
 "notification": "An ancient tribe trained us in their ways of combat!", 
-"weight": 4
+"weight": 5
 "uniques": ["This Unit gains [300] XP"] 
 }, 
 { 
 "name": "survivors (adds population to a city)", 
 "notification": "We have found survivors in the ruins! Population added to [cityName].", 
 "weight": 3
-"uniques": ["[+5] population in a random city"], // This can't be easily added to cityFilter, as it is non-deterministic		
+"uniques": ["[+6] population in a random city"], 	
 "color": "#81c784" 
 }, 
 { 
@@ -62,55 +67,20 @@
 "name": "advanced weaponry for your explorer", 
 "notification": "Our unit finds advanced weaponry hidden in the ruins!", 
 "weight": 3
-"uniques": ["This Unit upgrades for free including special upgrades", "This Unit gains [150] XP"] 
-}, 
-{ 
-"name": "reveal nearby Barbarian camps", 
-"notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!", 
-"weight": 1
-"uniques": ["Reveal up to [All] [Barbarian encampment] within a [100] tile radius"] 
+"uniques": ["This Unit upgrades for free including special upgrades", "This Unit gains [30] XP"] 
 },
-{ 
-"name": "reveal nearby cities", 
-"notification": "You find documents revealing city locations. Nearby Barbarian camps are revealed!", 
-"weight": 1
-"uniques": ["Reveal up to [All] [City center] within a [20] tile radius"] 
-},
-{ 
-"name": "find a crudely-drawn map", 
-"notification": "We have found a crudely-drawn map in the ruins!", 
-"weight": 1
-"uniques": ["From a randomly chosen tile [8] tiles away from the ruins, reveal tiles up to [8] tiles away with [100]% chance"] 
-}, 
 { 
 "name": "discover holy symbols", 
 "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
-"weight": 4
+"weight": 3
 "uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>"],
 "color": "#CDDDF4" 
 }, 
 { 
 "name": "an ancient prophecy", 
 "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
-"weight": 4
-"uniques": ["Hidden when religion is disabled", "Gain enough Faith for [100]% of a Great Prophet", "Hidden after generating a Great Prophet", "Only available <after founding a Pantheon>"],
+"weight": 3
+"uniques": ["Hidden when religion is disabled", "Gain enough Faith for [99]% of a Great Prophet", "Only available <after founding a Pantheon>"],
 "color": "#CDDDF4" 
 }
-//Deletions
-        /*
-{
-        "name": "squatters wishing to settle under your rule",
-        "notification": "A [Settler] has joined us!",
-        "weight": 0
-        "uniques": ["Free [Settler] found in the ruins"],
-        "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
-    },
-{
-        "name": "squatters willing to work for you",
-        "notification": "A [Worker] has joined us!",
-        "weight": 0
-        "uniques": ["Free [Worker] found in the ruins"],
-        "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
-    },
-        */
 ]
