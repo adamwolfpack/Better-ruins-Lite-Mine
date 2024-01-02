@@ -2,64 +2,71 @@
 { 
 "name": "discover cultural artifacts",
 "notification": "We have discovered ideas for a perfect society in the ruins! (free Social Policy)",
-"weight": 8
+"weight": 5
 "uniques": ["Free Social Policy"], 
 "color": "#cf8ff7" 
 },
 { 
 "name": "discover cultural artifacts",
+"notification": "We have discovered yet more ideas for a perfect society in the ruins! (free Social Policy)",
+"weight": 1
+"uniques": ["Free Social Policy", , "Only available <after founding a Pantheon>"], 
+"color": "#cf8ff7" 
+},
+{ 
+"name": "discover cultural artifacts",
 "notification": "We have discovered a secret that will impact our whole empire in the ruins! (Free Golden Age)",
-"weight": 2
+"weight": 5
 "uniques": ["Empire enters golden age", "Only available <after founding a Pantheon>"], 
 "color": "#cf8ff7" 
 },
 { "name": "squatters willing to assist you", 
 "notification": "A [Great General] has joined us!", 
-"weight": 2
+"weight": 5
 "uniques": ["Free [Great General] found in the ruins"]
 },
 {
 "name": "squatters wishing to to great things under your rule", 
 "notification": "A Great Person has joined us!", 
-"weight": 4
+"weight": 5
 "uniques": ["Free [Great Artist] found in the ruins"]
 },
 {
 "name": "squatters wishing to to great things under your rule", 
 "notification": "A Great Person has joined us!", 
-"weight": 4
+"weight": 5
 "uniques": ["Free [Great Scientist] found in the ruins"]
 },
 {
 "name": "squatters wishing to to great things under your rule", 
 "notification": "A Great Person has joined us!", 
-"weight": 3
+"weight": 5
 "uniques": ["Free [Great Merchant] found in the ruins"]
 },
 { 
 "name": "your exploring unit receives training", 
 "notification": "An ancient tribe trained us in their ways of combat!", 
-"weight": 5
+"weight": 2
 "uniques": ["This Unit gains [300] XP"] 
 }, 
 { 
 "name": "survivors (adds population to a city)", 
 "notification": "We have found survivors in the ruins! Population added to [cityName].", 
 "weight": 3
-"uniques": ["[+6] population in a random city"], 	
+"uniques": ["[+4] population in a random city"], 	
 "color": "#81c784" 
 }, 
 { 
 "name": "a stash of gold", 
 "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
-"weight": 3
+"weight": 4
 "uniques": ["Gain [4000]-[5000] [Gold]"], 
 "color": "#ffeb7f" 
 }, 
 { 
 "name": "discover a lost tech", 
 "notification": "We have discovered a lost tech in the ruins!", 
-"weight": 3
+"weight": 4
 "uniques": ["Free Technology"]
 "color": "#7f7fff" 
 }, 
@@ -67,20 +74,20 @@
 "name": "advanced weaponry for your explorer", 
 "notification": "Our unit finds advanced weaponry hidden in the ruins!", 
 "weight": 3
-"uniques": ["This Unit upgrades for free including special upgrades", "This Unit gains [30] XP"] 
+"uniques": ["This Unit upgrades for free including special upgrades", "This Unit gains [150] XP"] 
 },
 { 
 "name": "discover holy symbols", 
 "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
-"weight": 2
+"weight": 1
 "uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>"],
 "color": "#CDDDF4" 
 }, 
 { 
 "name": "an ancient prophecy", 
 "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
-"weight": 3
-"uniques": ["Hidden when religion is disabled", "Gain enough Faith for [99]% of a Great Prophet", "Only available <after founding a Pantheon>"],
+"weight": 1
+"uniques": ["Hidden when religion is disabled", "Gain enough Faith for [100]% of a Great Prophet", "Only available <after founding a Pantheon>"],
 "color": "#CDDDF4" 
 }
 ]
