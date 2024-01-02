@@ -10,8 +10,14 @@
 "name": "discover cultural artifacts",
 "notification": "We have discovered yet more ideas for a perfect society in the ruins! (free Social Policy)",
 "weight": 1
-"uniques": ["Free Social Policy", , "Only available <after founding a Pantheon>"], 
+"uniques": ["Free Social Policy", "Only available <after founding a Pantheon>"], 
 "color": "#cf8ff7" 
+},
+{ 
+"name": "find a better map", 
+"notification": "We have found an old map in the ruins!", 
+"weight": 1
+"uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [500] tiles away with [100]% chance", "Only available <before founding a Pantheon>"], 
 },
 { 
 "name": "discover cultural artifacts",
@@ -46,7 +52,7 @@
 { 
 "name": "your exploring unit receives training", 
 "notification": "An ancient tribe trained us in their ways of combat!", 
-"weight": 2
+"weight": 3
 "uniques": ["This Unit gains [300] XP"] 
 }, 
 { 
@@ -64,12 +70,31 @@
 "color": "#ffeb7f" 
 }, 
 { 
-"name": "discover a lost tech", 
-"notification": "We have discovered a lost tech in the ruins!", 
-"weight": 4
-"uniques": ["Free Technology"]
-"color": "#7f7fff" 
-}, 
+     "name": "discover ancient technology", 
+     "notification": "We have discovered a technology from the Ancient Era in the ruins!", 
+     "weight": 2
+     "uniques": [
+                 "[2] free random researchable Tech(s) from the [Ancient era]"
+                ]         
+  }, 
+  { 
+     "name": "discover classical technology", 
+     "notification": "We have discovered a technology from the Classical Era in the ruins!", 
+     "weight": 2
+     "uniques": [
+                 "[2] free random researchable Tech(s) from the [Classical era]", 
+                 "Only available <starting from the [Classical era]>"
+                ]         
+  }, 
+  { 
+     "name": "discover medieval technology", 
+     "notification": "We have discovered a technology from the Medieval Era in the ruins!", 
+     "weight": 2
+     "uniques": [
+                 "[2] free random researchable Tech(s) from the [Medieval era]", 
+                 "Only available <starting from the [Medieval era]>"
+                ]         
+  }, 
 { 
 "name": "advanced weaponry for your explorer", 
 "notification": "Our unit finds advanced weaponry hidden in the ruins!", 
