@@ -22,13 +22,19 @@
 "name": "squatters wishing to to great things under your rule", 
 "notification": "A Great Person has joined us!", 
 "weight": 4
-"uniques": ["Free [Artist Person] found in the ruins"]
+"uniques": ["Free [Great Artist] found in the ruins"]
 },
 {
 "name": "squatters wishing to to great things under your rule", 
 "notification": "A Great Person has joined us!", 
 "weight": 4
-"uniques": ["Free [Scientist Person] found in the ruins"]
+"uniques": ["Free [Great Scientist] found in the ruins"]
+},
+{
+"name": "squatters wishing to to great things under your rule", 
+"notification": "A Great Person has joined us!", 
+"weight": 4
+"uniques": ["Free [Great Merchant] found in the ruins"]
 },
 { 
 "name": "your exploring unit receives training", 
