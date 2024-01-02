@@ -2,7 +2,7 @@
 { 
 "name": "discover cultural artifacts",
 "notification": "We have discovered ideas for a perfect society in the ruins! (free Social Policy)",
-"weight": 7
+"weight": 8
 "uniques": ["Free Social Policy"], 
 "color": "#cf8ff7" 
 },
@@ -10,7 +10,7 @@
 "name": "discover cultural artifacts",
 "notification": "We have discovered a secret that will impact our whole empire in the ruins! (Free Golden Age)",
 "weight": 2
-"uniques": ["Empire enters golden age", "Only available <after founding a Pantheon>", "Only available after [20] turns"], 
+"uniques": ["Empire enters golden age", "Only available <after founding a Pantheon>"], 
 "color": "#cf8ff7" 
 },
 { "name": "squatters willing to assist you", 
@@ -30,12 +30,6 @@
 "weight": 4
 "uniques": ["Free [Scientist Person] found in the ruins"]
 },
-{
-"name": "squatters wishing to to great things under your rule", 
-"notification": "A Great Person has joined us!", 
-"weight": 2
-"uniques": ["Free [Merchant Person] found in the ruins"]
-},
 { 
 "name": "your exploring unit receives training", 
 "notification": "An ancient tribe trained us in their ways of combat!", 
@@ -53,7 +47,7 @@
 "name": "a stash of gold", 
 "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
 "weight": 3
-"uniques": ["Gain [2000]-[2500] [Gold]"], 
+"uniques": ["Gain [4000]-[5000] [Gold]"], 
 "color": "#ffeb7f" 
 }, 
 { 
@@ -72,7 +66,7 @@
 { 
 "name": "discover holy symbols", 
 "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
-"weight": 3
+"weight": 2
 "uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>"],
 "color": "#CDDDF4" 
 }, 
