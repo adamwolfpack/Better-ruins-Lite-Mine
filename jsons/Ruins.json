@@ -9,7 +9,7 @@
 { 
 "name": "discover cultural artifacts",
 "notification": "We have discovered yet more ideas for a perfect society in the ruins! (free Social Policy)",
-"weight": 1
+"weight": 2
 "uniques": ["Free Social Policy", "Only available <after founding a Pantheon>"], 
 "color": "#cf8ff7" 
 },
